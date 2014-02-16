@@ -1,0 +1,25 @@
+# Header metadata
+
+description: Solistka Sonia Warzyńska - sopran. Oficjalna strona artystki.
+og_site_name_en: Sonia Warzyńska - soprano
+
+zaklad:
+    url: zakladpogrzebowykrokowa.pl
+    google-site-verification: 8MrLTVfPuvD4nb2LhLsnpu_N7pNAbyJIN2C3vG59lKU
+    anal: UA-48118584-1
+    
+uslugi:
+    url: uslugipogrzebowekrokowa.pl
+    google-site-verification: tvJJpVgtQoVAFSHoNGAB5NUpNaonC7qTvXX_KaQNYK0
+    anal: UA-48118584-2
+
+  
+# Social media
+social:
+  gplus   : https://plus.google.com/116013958524059471308
+  
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Warsaw
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink: /:title/
