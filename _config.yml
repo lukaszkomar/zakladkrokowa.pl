@@ -1,18 +1,18 @@
 # Header metadata
 
-description: Solistka Sonia Warzyńska - sopran. Oficjalna strona artystki.
-og_site_name_en: Sonia Warzyńska - soprano
+url: zakladpogrzebowykrokowa.pl
 
-zaklad:
-    url: zakladpogrzebowykrokowa.pl
-    google-site-verification: 8MrLTVfPuvD4nb2LhLsnpu_N7pNAbyJIN2C3vG59lKU
-    anal: UA-48118584-1
-    
-uslugi:
-    url: uslugipogrzebowekrokowa.pl
-    google-site-verification: tvJJpVgtQoVAFSHoNGAB5NUpNaonC7qTvXX_KaQNYK0
-    anal: UA-48118584-2
+title: Zakład Pogrzebowy Krokowa
+description: Zakład Pogrzebowy Krokowa
+author: Anna Pipka
 
+og_site_name: Zakład Pogrzebowy Krokowa
+
+google_site_verification: 8MrLTVfPuvD4nb2LhLsnpu_N7pNAbyJIN2C3vG59lKU
+
+analytics: 
+    code: UA-48118584-1
+    domain: zakladpogrzebowykrokowa.pl
   
 # Social media
 social:
