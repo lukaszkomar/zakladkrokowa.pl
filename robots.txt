@@ -1,4 +1,5 @@
+--
+--
 User-agent: *
-Disallow:
-Host: zakladpogrzebowykrokowa.pl
+Host: {{ site.url }}
 Sitemap: /sitemap.xml

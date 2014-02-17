@@ -8,10 +8,8 @@
         <loc>{{ page.url | remove: 'index.html' | replace: '.html', '' }}</loc>              
         {% if page.url == '/index.html' %}
         <priority>1</priority>
-        {% elsif page.url == '/en.html' %}
-        <priority>0.9</priority>
         {% else %}
-        <priority>0.8</priority>
+        <priority>0.9</priority>
         {% endif %}        
     </url>
     {% endif %}
