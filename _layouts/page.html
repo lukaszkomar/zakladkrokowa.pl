@@ -49,9 +49,12 @@
 
 <p>Obsługujemy również miasta:</p>
 
-    {% for page in site.pages %}
-    {% if page.layout != nil and page.url != '/404.html' and page.url != '/index.html'  %}    
-    <a href="{{ page.url | replace: '.html', '' }}" >{{ page.title }}</a>
+    {% for p in site.pages %}
+    {% if p.layout != nil and p.url != '/404.html' and p.url != '/index.html'  %}    
+    <a href="{{ p.url | replace: '.html', '' }}" >{{ p.title }}</a>
+    
+    {% if page.url == p.url%}###{% endif %}
+    
     {% endif %}
     {% endfor %}            
             
