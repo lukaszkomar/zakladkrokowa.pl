@@ -47,11 +47,11 @@
 
 <p><a href="{{ site.social.gplus }}" rel="publisher">Jesteśmy również na portalu Google+</a></p>
 
+<p>Obsługujemy również miasta:</p>
+
     {% for page in site.pages %}
-    {% if page.layout != nil and page.url != '/404.html' and page.url != '/index.html'  %}
-    <!--
-        /{{ page.url | replace: '.html', '' }}
-    -->
+    {% if page.layout != nil and page.url != '/404.html' and page.url != '/index.html'  %}    
+    <a href="{{ page.url | replace: '.html', '' }}" >{{ page.title }}</a>
     {% endif %}
     {% endfor %}            
             
