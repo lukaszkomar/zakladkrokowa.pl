@@ -1,11 +1,33 @@
 {% include header.html %} 
 
-<h1>Usługi Pogrzebowe "Ostatnie Pożegnanie" - Anna Pipka Spółka Jawna</h1>
-<h2>Żarnowieckiego 11</h2>
-<h2>84-110 Krokowa</h2>
+  <div class="site-wrapper">
 
-<h2>+48 609 083 564</h2>
-<h2>+48 58 774 20 13</h2>
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">{{ site.og_site_name }}</h3>
+              
+            </div>
+          </div>
+
+          <div class="inner cover">
+            <h1 class="cover-heading">Cover your page.</h1>
+            <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+
+            
+<address>
+  <strong>Usługi Pogrzebowe "Ostatnie Pożegnanie" - Anna Pipka</strong><br>
+  Żarnowieckiego 11<br>
+  Krokowa 84-110<br>
+
+  <a href="tel:+48609083564">+48 609 083 564</a>
+  <a href="tel:+48587742013">+48 58 774 20 13</a>
+  
+  <a href="mailto:kontakt@{{ site.url }}">kontakt@{{ site.url }}</a>  
+</address>
 
 {{ content }}
 
@@ -25,11 +47,33 @@
 <p><a href="{{ site.social.gplus }}" rel="publisher">Jesteśmy również na portalu Google+</a></p>
 
     {% for page in site.pages %}
-    {% if page.layout != nil and page.url != '/404.html' %}
+    {% if page.layout != nil and page.url != '/404.html' and page.url != '/index.html'  %}
     <!--
-        http://{{ site.url }}{{ page.url | remove: 'index.html' | replace: '.html', '' }}
+        /{{ page.url | replace: '.html', '' }}
     -->
     {% endif %}
-    {% endfor %}
+    {% endfor %}            
+            
+            
+          </div>
+
+          <div class="mastfoot">
+            <div class="inner">
+              <p>&copy; Zakład</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="p/js/bootstrap.min.js"></script>
+
 
 {% include footer.html %}
