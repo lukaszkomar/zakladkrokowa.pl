@@ -1,0 +1,3 @@
+[submodule "matma"]
+	path = matma
+	url = git://github.com/lukaszkomar/matma.git
