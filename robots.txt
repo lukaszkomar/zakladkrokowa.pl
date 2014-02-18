@@ -2,4 +2,4 @@
 ---
 User-agent: *
 Host: {{ site.url }}
-Sitemap: /sitemap.xml
+Sitemap: http://{{ site.url }}/sitemap.xml

@@ -1,5 +1,6 @@
 # Header metadata
 
+# Mind no '/' at the and of url
 url: zakladpogrzebowykrokowa.pl
 
 title: Zakład Pogrzebowy Krokowa
@@ -16,7 +17,7 @@ analytics:
   
 # Social media
 social:
-    gplus   : https://plus.google.com/116013958524059471308
+    gplus: https://plus.google.com/116013958524059471308
   
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone: Europe/Warsaw
