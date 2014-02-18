@@ -3,11 +3,14 @@
 # Mind no '/' at the and of url
 url: zakladpogrzebowykrokowa.pl
 
-title: Zakład Pogrzebowy Krokowa
-description: Zakład Pogrzebowy Krokowa
+# Company name
+companyName: Zakład Pogrzebowy Krokowa A.Pipka
+
+title: Zakład Pogrzebowy Krokowa A.Pipka
+description: Zakład Pogrzebowy Krokowa A.Pipka
 author: Anna Pipka
 
-og_site_name: Zakład Pogrzebowy Krokowa
+
 
 google_site_verification: 8MrLTVfPuvD4nb2LhLsnpu_N7pNAbyJIN2C3vG59lKU
 
