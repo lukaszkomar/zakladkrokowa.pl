@@ -30,10 +30,11 @@ body {
 
 .sidebar a {
     padding-left: 35px;
-    background: url(phone.png) no-repeat;
+    background: url(phone.png) center left no-repeat;
     line-height: 32px;
     text-decoration: none;
     color: #000;
+    display: inline-block;
 }
 .sidebar a:hover {
     color: inherit;
