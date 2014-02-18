@@ -30,7 +30,7 @@ body {
 
 .sidebar a {
     padding-left: 35px;
-    background: url(phone.png) center left no-repeat;
+    background: url(phone.png) top left no-repeat;
     line-height: 32px;
     text-decoration: none;
     color: #000;
@@ -39,6 +39,19 @@ body {
 .sidebar a:hover {
     color: inherit;
     text-decoration: underline;
+}
+.sidebar a.location {
+    background-image: url(location.png);
+    line-height: 28px;
+}
+.sidebar a.mobile {
+    background-image: url(mobile.png);
+}
+.sidebar a.mail {
+    background-image: url(mail.png);
+}
+.sidebar a.plus {
+    background-image: url(plus.png);
 }
 
 
