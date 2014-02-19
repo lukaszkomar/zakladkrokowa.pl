@@ -80,7 +80,8 @@
         <p>{{ content }}</p>
 
         <p>
-        {% for p in site.pages %}
+        {% assign sorted_pages = site.pages | sort:"name" %}
+        {% for p in sorted_pages %}
         {% if p.layout != nil and p.url != '/404.html' and p.url != '/index.html'  %}
           {% if page.url == p.url%}<strong>{% endif %}
           <a href="{{ p.url | replace: '.html', '' }}" >{{ p.title }}</a>
