@@ -27,6 +27,9 @@ body {
 .carousel .phone24 {
     color: red;
 }
+.carousel-caption p {
+    display: none;
+}
 
 
 
@@ -77,6 +80,11 @@ footer {
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
+@media (min-width: 380px) {
+    .carousel-caption p {
+        display: inline;
+    }
+}
 
 @media (min-width: 768px) {
 
@@ -87,6 +95,10 @@ footer {
     font-size: 21px;
     line-height: 1.4;
   }
+  
+  .carousel-indicators {
+     display: none;
+  }  
 
 }
 
