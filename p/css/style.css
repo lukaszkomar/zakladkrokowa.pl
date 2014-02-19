@@ -1,8 +1,13 @@
 body {
-  color: #5a5a5a;
+  /*color: #5a5a5a;*/
+  color: #000;
   font-size: 18px;
 }
 
+a {
+    /*color: #8644a8;*/
+    color: #7b00bb;
+}
 
 .carousel {
   position: relative;
@@ -46,7 +51,6 @@ body {
     display: inline-block;
 }
 .sidebar a:hover {
-    color: #000;
     text-decoration: underline;
 }
 .sidebar a.location {
@@ -63,8 +67,8 @@ body {
     background-image: url(plus.png);
 }
 
-.sidebar ,row {
-    margin-bottom: 20px;
+.sidebar img {
+    margin: 5px 5px 20px 5px;
 }
 
 #map-canvas {
