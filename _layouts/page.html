@@ -85,7 +85,7 @@
           {% if page.url == p.url%}<strong>{% endif %}
           <a href="{{ p.url | replace: '.html', '' }}" >{{ p.title }}</a>
           {% if page.url == p.url%}</strong>{% endif %}
-          {% if forloop.last == false %},{% endif %}
+          {% unless forloop.last %},{% endunless %}
         {% endif %}
         {% endfor %}                        
         </p>
