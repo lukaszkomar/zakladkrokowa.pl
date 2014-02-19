@@ -33,11 +33,10 @@ body {
     background: url(phone.png) top left no-repeat;
     line-height: 32px;
     text-decoration: none;
-    color: #000;
     display: inline-block;
 }
 .sidebar a:hover {
-    color: inherit;
+    color: #000;
     text-decoration: underline;
 }
 .sidebar a.location {
@@ -77,6 +76,10 @@ body {
   margin-left: 10px;
 }
 
+
+footer {
+    margin-top: 20px;
+}
 
 
 /* RESPONSIVE CSS
