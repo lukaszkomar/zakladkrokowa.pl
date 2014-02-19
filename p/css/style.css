@@ -28,6 +28,10 @@ body {
 }
 
 
+
+.sidebar address {
+    text-align: left;
+}
 .sidebar a {
     padding-left: 35px;
     background: url(phone.png) top left no-repeat;
