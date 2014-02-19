@@ -172,7 +172,7 @@
           content: contentString
       });
 
-      google.maps.event.addListener(marker, 'load', function() {
+      google.maps.event.addDomListener(window, 'load', function() {
         infowindow.open(map,marker);
       });
       
