@@ -30,7 +30,9 @@ body {
 .carousel-caption p {
     display: none;
 }
-
+.carousel-indicators {
+   display: none;
+}
 
 
 .sidebar address {
@@ -82,7 +84,7 @@ footer {
 -------------------------------------------------- */
 @media (min-width: 380px) {
     .carousel-caption p {
-        display: inline;
+        display: block;
     }
 }
 
@@ -96,8 +98,9 @@ footer {
     line-height: 1.4;
   }
   
+  /* Show indicators */
   .carousel-indicators {
-     display: none;
+     display: block;
   }  
 
 }
