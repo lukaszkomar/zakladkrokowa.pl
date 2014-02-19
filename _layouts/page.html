@@ -145,13 +145,13 @@
   <script type="text/javascript">
     function initialize() {
       var mapOptions = {
-        center: new google.maps.LatLng(54.778434, 18.162321), 
+        center: new google.maps.LatLng(54.779434, 18.162321), 
         zoom: 16
       };
       var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
       
       var marker = new google.maps.Marker({
-          position: mapOptions.center,
+          position: new google.maps.LatLng(54.778434, 18.162321),
           map: map,
           title:"{{ site.companyName }}"
       });
