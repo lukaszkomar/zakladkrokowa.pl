@@ -116,7 +116,9 @@ footer {
 }
 
 @media (min-width: 992px) {
-
+    .content ul li {
+        font-size: larger;
+    }
 }
 
 @media (min-width: 1200px) {
