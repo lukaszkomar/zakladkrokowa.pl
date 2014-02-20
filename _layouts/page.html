@@ -108,7 +108,7 @@
           </address>
         </div>
         
-        <div class="row">
+        <div class="row parent-container">
           <div class="col-sm-6">
             <a href="p/img/krokowa1.jpg" class="gallery-item"><img src="p/img/krokowa1.jpg" alt="..." class="img-thumbnail img-responsive" /></a>
           </div>
@@ -185,7 +185,8 @@
   <!-- Magnific Popup core JS file -->
   <script src="p/js/jquery.magnific-popup.min.js"></script> 
   <script type="text/javascript">
-    $('a.gallery-item').magnificPopup({
+    $('.parent-container').magnificPopup({
+      delegate: 'a',
       type: 'image',
       gallery:{
         enabled:true
