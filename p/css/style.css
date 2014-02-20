@@ -46,7 +46,7 @@ a {
 .sidebar address {
     text-align: left;
 }
-.sidebar a {
+.sidebar a.address  {
     padding-left: 35px;
     background: url(phone.png) top left no-repeat;
     line-height: 32px;
