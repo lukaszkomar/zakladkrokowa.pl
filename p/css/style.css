@@ -46,7 +46,7 @@ a {
 .sidebar address {
     text-align: left;
 }
-.sidebar a.address  {
+.sidebar a  {
     padding-left: 35px;
     background: url(phone.png) top left no-repeat;
     line-height: 32px;
@@ -74,12 +74,15 @@ a {
     margin-bottom: 20px;
 }
 
+.gallery {
+    margin-top: 20px;
+}
+
 #map-canvas {
+    margin-top: 20px;
     width: 100%; 
     height: 400px;
 }
-
-
 
 footer {
     margin-top: 20px;
