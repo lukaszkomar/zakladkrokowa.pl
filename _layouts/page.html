@@ -110,19 +110,19 @@
         
         <div class="row">
           <div class="col-sm-6">
-             <img src="p/img/krokowa1.jpg" alt="..." class="img-thumbnail img-responsive" />
+            <a href=p/img/krokowa1.jpg" class="gallery-item"><img src="p/img/krokowa1.jpg" alt="..." class="img-thumbnail img-responsive" /></a>
           </div>
           <div class="col-sm-6">
-             <img src="p/img/krokowa1.jpg" alt="..." class="img-thumbnail img-responsive" />
+            <a href=p/img/krokowa1.jpg" class="gallery-item"><img src="p/img/krokowa1.jpg" alt="..." class="img-thumbnail img-responsive" />
           </div>
         </div>
         
         <div class="row">
           <div class="col-sm-6">
-             <img src="p/img/krokowa1.jpg" alt="..." class="img-thumbnail img-responsive" />
+            <a href=p/img/krokowa1.jpg" class="gallery-item"><img src="p/img/krokowa1.jpg" alt="..." class="img-thumbnail img-responsive" /></a>
           </div>
           <div class="col-sm-6">
-             <img src="p/img/krokowa1.jpg" alt="..." class="img-thumbnail img-responsive" />
+            <a href=p/img/krokowa1.jpg" class="gallery-item"><img src="p/img/krokowa1.jpg" alt="..." class="img-thumbnail img-responsive" /></a>
           </div>
         </div>
    
@@ -182,4 +182,15 @@
     google.maps.event.addDomListener(window, 'load', initialize);
   </script>  
   
+  <!-- Magnific Popup core JS file -->
+  <script src="p/js/jquery.magnific-popup.js"></script> 
+  <script type="text/javascript">
+    $('.gallery-item').magnificPopup({
+      type: 'image',
+      gallery:{
+        enabled:true
+      }
+    });
+  </script>
+    
 {% include footer.html %}
