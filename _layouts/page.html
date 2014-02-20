@@ -61,7 +61,7 @@
     <div class="row">
       <div class="col-sm-8 content">  
         
-        {% if page.title == "404"%}
+        {% if page.error404 == "true" %}
         <h1>404 Nie znaleziono strony</h1>
         {% endif %}
         
@@ -154,7 +154,7 @@
     function initialize() {
       var mapOptions = {
         center: new google.maps.LatLng(54.779434, 18.162321), 
-        zoom: 11
+        zoom: 16
       };
       
       var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
