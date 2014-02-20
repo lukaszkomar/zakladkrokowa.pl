@@ -13,9 +13,9 @@
         <img src="p/img/carousel1.jpg" alt="{{ site.companyName }} Sprzedaż trumien, krzyży, tabliczek, urn.">
         <div class="container">
           <div class="carousel-caption">
-            <h1><a href="http://{{ site.url }}">{{ site.companyName }}</a></h1>
+            <h1><a href="http://{{ site.url }}" title="{{ site.companyName }}">{{ site.companyName }}</a></h1>
             <p>Sprzedaż trumien, krzyży, tabliczek, urn.</p>
-            <p><a class="phone24" href="tel:+48609083564">Całodobowy kontakt: <strong>609 083 564</strong></a></p>
+            <p><a href="tel:+48609083564" title="{{ site.companyName }} całodobowy telefon">Całodobowy kontakt: <strong>609 083 564</strong></a></p>
           </div>
         </div>
       </div>
@@ -24,9 +24,9 @@
         <img src="p/img/carousel2.jpg" alt="Zakład">
         <div class="container">
           <div class="carousel-caption">
-            <h1>{{ site.companyName }}</h1>
+            <h1><a href="http://{{ site.url }}">{{ site.companyName }}</a></h1>
             <p>Obsługa pogrzebu.</p>
-            <p><a class="phone24" href="tel:+48609083564">Całodobowy kontakt: 609 083 564</a></p>
+            <p><a href="tel:+48609083564" title="{{ site.companyName }} całodobowy telefon">Całodobowy kontakt: <strong>609 083 564</strong></a></p>
           </div>
         </div>
       </div>
@@ -34,9 +34,9 @@
         <img src="p/img/carousel3.jpg" alt="Zakład">
         <div class="container">
           <div class="carousel-caption">
-            <h1>{{ site.companyName }}</h1>
+            <h1><a href="http://{{ site.url }}">{{ site.companyName }}</a></h1>
             <p>Możliwość organizacji różańca (pustej nocy) w kaplicy.</p>
-            <p><a class="phone24" href="tel:+48609083564">Całodobowy kontakt: 609 083 564</a></p>
+            <p><a href="tel:+48609083564" title="{{ site.companyName }} całodobowy telefon">Całodobowy kontakt: <strong>609 083 564</strong></a></p>
           </div>
         </div>
       </div>
@@ -44,9 +44,9 @@
         <img src="p/img/carousel4.jpg" alt="Zakład">
         <div class="container">
           <div class="carousel-caption">
-            <h1>{{ site.companyName }}</h1>
+            <h1><a href="http://{{ site.url }}">{{ site.companyName }}</a></h1>
             <p>Całodobowy przewóz zmarłych.</p>
-            <p><a class="phone24" href="tel:+48609083564">Całodobowy kontakt: 609 083 564</a></p>
+            <p><a href="tel:+48609083564" title="{{ site.companyName }} całodobowy telefon">Całodobowy kontakt: <strong>609 083 564</strong></a></p>
           </div>
         </div>
       </div>
@@ -99,12 +99,12 @@
         <div class="row">
           <address class="col-sm-12">
             <h3>{{ site.companyName }}</h3>
-            <a class="location" href="https://maps.google.pl/maps?q=54.778434,18.162321&hl=pl&z=16">ul. Żarnowieckiego 11<br>Krokowa 84-110</a><br/>
+            <a class="location" href="https://maps.google.pl/maps?q=54.778434,18.162321&hl=pl&z=16" title="{{ site.companyName }} adres">ul. Żarnowieckiego 11<br>Krokowa 84-110</a><br/>
             <br/>
-            <a class="mobile"   href="tel:+48609083564">609 083 564</a><br/>
-            <a class="phone"    href="tel:+48587742013">58 774 20 13</a><br/>
+            <a class="mobile"   href="tel:+48609083564" title="{{ site.companyName }} całodobowy telefon">609 083 564</a><br/>
+            <a class="phone"    href="tel:+48587742013" title="{{ site.companyName }} telefon stacjonarny">58 774 20 13</a><br/>
             <br/>
-            <a class="mail"     href="mailto:kontakt@{{ site.url }}">kontakt@{{ site.url }}</a><br/>
+            <a class="mail"     href="mailto:kontakt@{{ site.url }}" title="{{ site.companyName }} mail">kontakt@{{ site.url }}</a><br/>
             <a class="plus"     href="{{ site.social.gplus }}" rel="publisher">Jesteśmy również na portalu Google+</a><br/>
           </address>
         </div><!--/row-->
@@ -113,7 +113,9 @@
      
     <div class="row gallery">
       <div class="col-sm-2">
-        <a href="p/img/krokowa1.jpg" class="gallery-item"><img src="p/img/krokowa1.jpg" alt="..." class="img-thumbnail img-responsive" /></a>
+        <a href="p/img/krokowa1.jpg" class="gallery-item">
+          <img src="p/img/krokowa1.jpg" alt="..." class="img-thumbnail img-responsive" />
+        </a>
       </div>
       <div class="col-sm-2">
         <a href="p/img/krokowa1.jpg" class="gallery-item"><img src="p/img/krokowa1.jpg" alt="..." class="img-thumbnail img-responsive" /></a>
@@ -148,8 +150,9 @@
     function initialize() {
       var mapOptions = {
         center: new google.maps.LatLng(54.779434, 18.162321), 
-        zoom: 16
+        zoom: 11
       };
+      
       var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
       
       var marker = new google.maps.Marker({
@@ -178,7 +181,7 @@
         infowindow.open(map,marker);
       });
       
-       infowindow.open(map,marker);
+      infowindow.open(map,marker);
       
     }
     google.maps.event.addDomListener(window, 'load', initialize);
