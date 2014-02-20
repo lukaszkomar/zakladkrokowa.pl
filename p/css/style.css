@@ -50,6 +50,8 @@ a {
     font-size: 24px;
     margin-top: 20px;
     margin-bottom: 10px;
+    line-height: 1.1;
+    display: block;    
 }
 .sidebar a  {
     padding-left: 35px;
