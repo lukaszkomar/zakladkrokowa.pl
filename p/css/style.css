@@ -34,6 +34,7 @@ a {
 }
 .carousel-caption h1 a {
     color: #fff;
+    font-size: 25px;
 }
 .carousel-caption p {
     display: none;
@@ -102,13 +103,16 @@ footer {
 @media (min-width: 380px) {
     .carousel-caption p {
         display: block;
-    }
+    }    
 }
 
 @media (min-width: 768px) {
 
-
   /* Bump up size of carousel content */
+    .carousel-caption h1 a {
+        font-size: 36px;
+    }  
+  
   .carousel-caption p {
     margin-bottom: 20px;
     font-size: 21px;
