@@ -13,9 +13,7 @@
         <img src="p/img/carousel1.jpg" alt="{{ site.companyName }} Sprzedaż trumien, krzyży, tabliczek, urn">
         <div class="container">
           <div class="carousel-caption">
-            <h1><a href="http://{{ site.url }}" title="{{ site.companyName }}">{{ site.companyName }}</a></h1>
-            <p>Sprzedaż trumien, krzyży, tabliczek, urn.</p>
-            <p><a href="tel:+48609083564" title="{{ site.companyName }} całodobowy telefon">Całodobowy kontakt: <strong>609 083 564</strong></a></p>
+            <p><a href="tel:+48609083564" title="{{ site.companyName }} całodobowy telefon">Całodobowy telefon: <strong>609 083 564</strong></a></p>
           </div>
         </div>
       </div>
@@ -24,9 +22,7 @@
         <img src="p/img/carousel2.jpg" alt="{{ site.companyName }} Obsługa pogrzebu">
         <div class="container">
           <div class="carousel-caption">
-            <h1><a href="http://{{ site.url }}">{{ site.companyName }}</a></h1>
-            <p>Obsługa pogrzebu.</p>
-            <p><a href="tel:+48609083564" title="{{ site.companyName }} całodobowy telefon">Całodobowy kontakt: <strong>609 083 564</strong></a></p>
+            <p><a href="tel:+48609083564" title="{{ site.companyName }} całodobowy telefon">Całodobowy telefon: <strong>609 083 564</strong></a></p>
           </div>
         </div>
       </div>
@@ -34,9 +30,7 @@
         <img src="p/img/carousel3.jpg" alt="{{ site.companyName }} Możliwość organizacji różańca (pustej nocy) w kaplicy">
         <div class="container">
           <div class="carousel-caption">
-            <h1><a href="http://{{ site.url }}">{{ site.companyName }}</a></h1>
-            <p>Możliwość organizacji różańca (pustej nocy) w kaplicy.</p>
-            <p><a href="tel:+48609083564" title="{{ site.companyName }} całodobowy telefon">Całodobowy kontakt: <strong>609 083 564</strong></a></p>
+            <p><a href="tel:+48609083564" title="{{ site.companyName }} całodobowy telefon">Całodobowy telefon: <strong>609 083 564</strong></a></p>
           </div>
         </div>
       </div>
@@ -44,9 +38,7 @@
         <img src="p/img/carousel4.jpg" alt="{{ site.companyName }} Całodobowy przewóz zmarłych">
         <div class="container">
           <div class="carousel-caption">
-            <h1><a href="http://{{ site.url }}">{{ site.companyName }}</a></h1>
-            <p>Całodobowy przewóz zmarłych.</p>
-            <p><a href="tel:+48609083564" title="{{ site.companyName }} całodobowy telefon">Całodobowy kontakt: <strong>609 083 564</strong></a></p>
+            <p><a href="tel:+48609083564" title="{{ site.companyName }} całodobowy telefon">Całodobowy telefon: <strong>609 083 564</strong></a></p>
           </div>
         </div>
       </div>
@@ -64,7 +56,11 @@
         {% if page.title == 404 %}
         <h1>404 Nie znaleziono strony</h1>
         {% endif %}
-                
+        
+        <h1><a href="http://{{ site.url }}" title="{{ site.companyName }}">{{ site.companyName }}</a></h1>
+        
+        <p>Działamy przez całą dobę 7 dni w tygodniu, możemy zagwarantować godną i profesjonalną posługę w przystępnej cenie. Nasza siedziba mieści się w Krokowie ale obsługujemy wszystkie okoliczne miejscowości.</p>
+        
         <h2>Oferujemy:</h2>
         <ul>
           <li>Sprzedaż trumien, krzyży, tabliczek, urn</li>
@@ -102,11 +98,11 @@
       <div class="col-sm-4 sidebar">
         <div class="row">
           <address class="col-sm-12">
-            <strong>{{ site.companyName }}</strong>
-            <a class="location" href="https://maps.google.pl/maps?q=54.778434,18.162321&amp;hl=pl&amp;z=16" title="{{ site.companyName }} adres">ul. Żarnowiecka 11<br>Krokowa 84-110</a><br/>
-            <br/>
+            <strong>{{ site.companyName }}</strong>            
             <a class="mobile"   href="tel:+48609083564" title="{{ site.companyName }} całodobowy telefon">609 083 564</a><br/>
             <a class="phone"    href="tel:+48587742013" title="{{ site.companyName }} telefon stacjonarny">58 774 20 13</a><br/>
+            <br/>
+            <a class="location" href="https://maps.google.pl/maps?q=54.778434,18.162321&amp;hl=pl&amp;z=16" title="{{ site.companyName }} adres">ul. Żarnowiecka 11<br>Krokowa 84-110</a><br/>
             <br/>
             <a class="mail"     href="mailto:kontakt@{{ site.url }}" title="{{ site.companyName }} mail">kontakt@{{ site.url }}</a><br/>
             <a class="plus"     href="{{ site.social.gplus }}" rel="publisher">Jesteśmy również na portalu Google+</a><br/>
