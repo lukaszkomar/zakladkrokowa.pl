@@ -128,7 +128,7 @@ footer {
 
 @media (min-width: 992px) {
     
-    .carousel-caption p {
+    .carousel-caption p strong{
       font-size: 40px;
     }
     
