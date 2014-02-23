@@ -127,6 +127,11 @@ footer {
 }
 
 @media (min-width: 992px) {
+    
+    .carousel-caption p {
+      font-size: 40px;
+    }
+    
     .content ul li {
         font-size: larger;
     }
