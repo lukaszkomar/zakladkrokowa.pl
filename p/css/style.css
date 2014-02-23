@@ -70,6 +70,11 @@ a {
 }
 .sidebar a.mobile {
     background-image: url(mobile.png);
+    font-size: 27px;
+}
+.sidebar a.phone {
+    background-image: url(phone.png);
+    font-size: 27px;
 }
 .sidebar a.mail {
     background-image: url(mail.png);
